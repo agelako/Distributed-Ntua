@@ -2,6 +2,13 @@
 A simple file transfer app using a DHT based on the Chord protocol 
 
 
+
+
+
+
+
+
+Make sure you have python3.5 installed 
 Set up the virtual environment for the Project:
 
 $ mkdir project && cd project
