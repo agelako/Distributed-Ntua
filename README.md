@@ -22,6 +22,7 @@ $ source env/bin/activate
 $ touch .gitignore README.md requirements.txt
 
 This will give you the following structure:
+
 ├── .gitignore
 
 ├── README.md
@@ -52,11 +53,13 @@ Y=Consistency Type(0 for Linearizeability w/ chain rep,1 for Eventual Consistenc
 
 
 #To run a slaveserver for a node(make sure you are in a virtual env): 
+
 ├── slaveserver.py
 
 ├── dhtclasses.py
 
 └── script.sh
+
 run script.sh IP,PORT
 This creates a copy file of slaveserver (slaveserver_IP_port.py)
 and runs the slaveserver in this ip and port.
