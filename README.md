@@ -16,7 +16,9 @@ $ touch .gitignore README.md requirements.txt
 
 This will give you the following structure:
 ├── .gitignore
+
 ├── README.md
+
 └── requirements.txt
 
 Next install Flask:
@@ -33,6 +35,7 @@ etc...
 #To run bootstrap node (make sure you are in a virtual env (run the command source env/bin/activate)) 
 
 ├── server.py
+
 ├── dhtclasses.py
 
 Run the server: 
@@ -43,7 +46,9 @@ Y=Consistency Type(0 for Linearizeability w/ chain rep,1 for Eventual Consistenc
 
 #To run a slaveserver for a node(make sure you are in a virtual env): 
 ├── slaveserver.py
+
 ├── dhtclasses.py
+
 └── script.sh
 run script.sh IP,PORT
 This creates a copy file of slaveserver (slaveserver_IP_port.py)
