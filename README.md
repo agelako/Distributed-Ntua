@@ -1,11 +1,13 @@
 # Distributed-Ntua
 A simple file transfer app using a DHT based on the Chord protocol .
+
 This is a simple Chord(ToyChord) implementation ,more about Chord [in this paper](https://dl.acm.org/doi/10.1145/964723.383071) 
 
 
 
 
-Make sure you have python3.5 installed 
+Make sure you have python3.5 installed .
+
 Set up the virtual environment for the Project:
 
 $ mkdir project && cd project
